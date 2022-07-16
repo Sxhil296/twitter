@@ -1,0 +1,95 @@
+.container{
+    width: 60%;
+    margin: 100px 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#xsign{
+    display: flex;
+    margin: 90px 550px 5px 500px;
+}
+
+.logo{
+    display: flex;
+}
+
+#logo{
+    color: rgb(7, 157, 245);
+    margin-left: 13%;
+}
+.email{
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 60px;
+    width: 350px;
+    margin-bottom: 30px;
+}
+.email>h3,p{
+    margin: 10px 30px ;
+}
+.email>h3{
+    font-size: 1rem;
+}
+.email>p{
+    font-size: 0.8rem;
+    color: gray;
+}
+#google{
+    float: right;
+}
+
+.apple{
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 60px;
+    width: 350px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+hr{
+   display: inline-block;
+    width: 160px;
+   vertical-align: middle;
+   margin-bottom: 20px;
+}
+
+.phone{
+    border: 1px solid grey;
+    border-radius: 10px;
+    height: 70px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: gray;
+    font-weight: lighter;
+}
+
+.next{
+    border: 2px solid black;
+    border-radius: 20px;
+    height: 40px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+    background-color: black;
+}
+
+.fpassword{
+    border: 1px solid grey;
+    border-radius: 20px;
+    height: 40px;
+    width: 350px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.signup{
+    color: gray;
+    font-size: .9rem;
+}
+.signup > h3> a{
+    text-decoration: none;
+    color:rgb(7, 157, 245);
+}
